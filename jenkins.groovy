@@ -30,3 +30,11 @@ pipeline {
         }
     }
 }
+ stage('Deploy') {
+            steps {
+                echo "Deploying the project..."
+                // Add deployment commands here (e.g., copy to server, start service)
+            }
+        }
+    }
+}
